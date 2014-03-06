@@ -12,6 +12,6 @@ describe('alpha_calc') do
     alpha_calc("What is 2 plus 2?").should(eq([4])) 
   end
   it('Evaluates multiple computation inquiries') do
-    alpha_calc("What is 2 plus 2? What is 4 plus 2?").should(eq([4, 6])) 
+    alpha_calc("What is 2 plus 2? What is 4 plus 2?").should(eq([4, 6]git)) 
   end
 end
